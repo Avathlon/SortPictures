@@ -11,7 +11,8 @@
     <OutputPath>.</OutputPath>
     <Name>SortPictures</Name>
     <RootNamespace>SortPictures</RootNamespace>
-    <InterpreterId>Global|VisualStudio|Python 3.13.7</InterpreterId>
+    <InterpreterId>Global|PythonCore|3.13</InterpreterId>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -25,6 +26,7 @@
     <Compile Include="SortPictures.py" />
   </ItemGroup>
   <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.13" />
     <InterpreterReference Include="Global|VisualStudio|Python 3.13.7" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

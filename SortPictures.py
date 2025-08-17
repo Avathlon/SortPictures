@@ -12,8 +12,8 @@ from pathlib import Path
 from datetime import datetime
 
 # ---- Konfiguraatio ---- #
-SRC_DIR   = "E:\Kuvat\Lajittele"      # Lähdehakemisto (kuvat + videot)
-DEST_ROOT = "E:\Kuvat\Lajiteltu"           # Järjestettyjen tiedostojen juuri
+SRC_DIR   = "E:\Kuvat\Lajittele"      # Source directory root folder (pics + videos)
+DEST_ROOT = "E:\Kuvat\Lajiteltu"           # Sorted pics and videos root folder
 
 # ----------------------- #
 
